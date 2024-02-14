@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/samplesmtp/static/css/main.4a6ce15c.css",
+    "main.js": "/samplesmtp/static/js/main.a080d9c1.js",
+    "static/js/515.1b7aeb21.js": "/samplesmtp/static/js/515.1b7aeb21.js",
+    "static/media/MaterialCommunityIcons.ttf": "/samplesmtp/static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
+    "static/media/Ionicons.ttf": "/samplesmtp/static/media/Ionicons.3517aeaa34b2f8cd8eef.ttf",
+    "static/media/MaterialIcons.ttf": "/samplesmtp/static/media/MaterialIcons.120b4c7bbd155bd0a04d.ttf",
+    "static/media/RMJ SMTP.png": "/samplesmtp/static/media/RMJ SMTP.42191cfa3a57730beba4.png",
+    "static/media/SMTP.png": "/samplesmtp/static/media/SMTP.fe8cedfde0f062f52781.png",
+    "favicon.ico": "/samplesmtp/favicon.ico",
+    "index.html": "/samplesmtp/index.html",
+    "favicon-32.png": "/samplesmtp/favicon-32.png",
+    "favicon-16.png": "/samplesmtp/favicon-16.png",
+    "manifest.json": "/samplesmtp/manifest.json",
+    "serve.json": "/samplesmtp/serve.json",
+    "main.4a6ce15c.css.map": "/samplesmtp/static/css/main.4a6ce15c.css.map",
+    "main.a080d9c1.js.map": "/samplesmtp/static/js/main.a080d9c1.js.map",
+    "515.1b7aeb21.js.map": "/samplesmtp/static/js/515.1b7aeb21.js.map"
+  },
+  "entrypoints": [
+    "static/js/515.1b7aeb21.js",
+    "static/css/main.4a6ce15c.css",
+    "static/js/main.a080d9c1.js"
+  ]
+}
