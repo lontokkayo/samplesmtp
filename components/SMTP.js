@@ -167,7 +167,7 @@ export default function SMTP() {
 
   const sendEmail = async (to, subject, htmlContent) => {
     try {
-      const response = await fetch('http://34.97.108.2:2000/send-email', {
+      const response = await fetch('http://34.97.28.40:2000/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -205,13 +205,15 @@ export default function SMTP() {
         await sendEmail(email, `Real Motor Japan | New Arrivals (${formattedTime})`, htmlContent);
         console.log(`Email sent to ${email}`);
         successfulEmails.push(email);
+        setSuccessList(prevSuccesses => [...prevSuccesses, email]);
+
       } catch (error) {
         console.error(`Failed to send email to ${email}`, error);
       }
     }
 
-    // Update state to reflect changes
-    setSuccessList(successfulEmails);
+    // // Update state to reflect changes
+    // setSuccessList(successfulEmails);
     // Remove successful emails from TextInput
     setEmails(emails => emails.split(/[\n,]+/).filter(email => !successfulEmails.includes(email.trim())).join('\n'));
     console.log('All emails have been processed.');
@@ -356,7 +358,7 @@ export default function SMTP() {
   }
 
   useEffect(() => {
-    fetch(`http://34.97.108.2:3000/api/proxy?url=${encodeURIComponent('https://www.realmotor.jp/car_list/All/All/All/')}`, {
+    fetch(`http://34.97.28.40:3000/api/proxy?url=${encodeURIComponent('https://www.realmotor.jp/car_list/All/All/All/')}`, {
     })
       .then(response => response.text())
       .then(data => {
