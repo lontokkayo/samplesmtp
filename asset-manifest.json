@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samplesmtp/static/css/main.4a6ce15c.css",
-    "main.js": "/samplesmtp/static/js/main.a080d9c1.js",
+    "main.js": "/samplesmtp/static/js/main.60200cb8.js",
     "static/js/515.1b7aeb21.js": "/samplesmtp/static/js/515.1b7aeb21.js",
     "static/media/MaterialCommunityIcons.ttf": "/samplesmtp/static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
     "static/media/Ionicons.ttf": "/samplesmtp/static/media/Ionicons.3517aeaa34b2f8cd8eef.ttf",
@@ -15,12 +15,12 @@
     "manifest.json": "/samplesmtp/manifest.json",
     "serve.json": "/samplesmtp/serve.json",
     "main.4a6ce15c.css.map": "/samplesmtp/static/css/main.4a6ce15c.css.map",
-    "main.a080d9c1.js.map": "/samplesmtp/static/js/main.a080d9c1.js.map",
+    "main.60200cb8.js.map": "/samplesmtp/static/js/main.60200cb8.js.map",
     "515.1b7aeb21.js.map": "/samplesmtp/static/js/515.1b7aeb21.js.map"
   },
   "entrypoints": [
     "static/js/515.1b7aeb21.js",
     "static/css/main.4a6ce15c.css",
-    "static/js/main.a080d9c1.js"
+    "static/js/main.60200cb8.js"
   ]
 }
