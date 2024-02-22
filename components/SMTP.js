@@ -167,7 +167,7 @@ export default function SMTP() {
 
   const sendEmail = async (to, subject, htmlContent) => {
     try {
-      const response = await fetch('http://34.97.28.40:2000/send-email', {
+      const response = await fetch('https://rmjsmtp.duckdns.org/emailServer/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -358,7 +358,7 @@ export default function SMTP() {
   }
 
   useEffect(() => {
-    fetch(`http://34.97.28.40:3000/api/proxy?url=${encodeURIComponent('https://www.realmotor.jp/car_list/All/All/All/')}`, {
+    fetch(`https://rmjsmtp.duckdns.org/rmjNewVehiclesServer/api/proxy?url=${encodeURIComponent('https://www.realmotor.jp/car_list/All/All/All/')}`, {
     })
       .then(response => response.text())
       .then(data => {
